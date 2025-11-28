@@ -1,0 +1,95 @@
+/* style.css - Arquivo separado */
+
+/* ------------------ FUNDO ------------------ */
+.home-bg {
+    background: url('../images/76809.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagamento-bg {
+    background: url('../images/76809.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------ CAIXAS ------------------ */
+.container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #c40000;
+}
+
+/* ------------------ PRODUTO ------------------ */
+.produto-img {
+    width: 150px;
+}
+.nome {
+    font-size: 22px;
+    margin: 10px 0 5px 0;
+}
+.preco {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* ------------------ BOTÕES ------------------ */
+.btn {
+    background: #c40000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #8a0000;
+}
+
+.voltar {
+    background: #444;
+}
+.voltar:hover {
+    background: #222;
+}
+
+/* ------------------ PAGAMENTO ------------------ */
+.metodo {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.qr {
+    width: 180px;
+    margin-top: 10px;
+}
+
+.destaque {
+    color: #c40000;
+    font-weight: bold;
+}
